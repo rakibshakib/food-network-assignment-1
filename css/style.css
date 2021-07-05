@@ -17,7 +17,8 @@ a {
 /* width 80% css here */
 .navbar-items,
 .home-items,
-.about-items {
+.about-item,
+.my-recipies-items {
     width: 80%;
     margin: auto;
 }
@@ -37,7 +38,8 @@ a {
 /* display wrapping here */
 .navbar-wrap,
 .home-wrap,
-.about-wrap {
+.about-wrap,
+.recipies-cart-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,4 +137,14 @@ a {
     margin-top: 30px;
     margin-bottom: 50px;
     padding: 10px 0px
+}
+/* my recipies */
+.recipies-cart-wrap{
+    padding: 10px 20px;
+}
+.recipes-images{
+    width: 300px;
+}
+.recipes-images img{
+    width: 100%;
 }
