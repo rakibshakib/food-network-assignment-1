@@ -224,12 +224,14 @@ a {
 .package-section {
     background-color: #ebf8ff;
     margin: 30px 0;
+    padding: 20px 0;
 }
 
 .package-item-description {
     text-align: center;
     width: 700px;
     margin: auto;
+    margin-top: 20px;
     font-size: 30px;
     font-weight: 600;
     padding: 20px 0;
@@ -241,9 +243,6 @@ a {
     margin-bottom: 50px;
 }
 
-.active-package {
-    background-color: white;
-}
 
 .package-cart {
     width: 200px;
@@ -252,6 +251,7 @@ a {
     text-align: center;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     border-radius: 15px;
+    background-color: white;
 }
 
 .package-cart-img {
@@ -280,7 +280,8 @@ a {
     color: #FBA24F;
     border-bottom: 2px solid #FBA24F;
 }
-.package-dollar{
+
+.package-dollar {
     font-size: 20px;
     padding-left: 2px;
 }
