@@ -280,6 +280,10 @@ a {
     color: #FBA24F;
     border-bottom: 2px solid #FBA24F;
 }
+.package-dollar{
+    font-size: 20px;
+    padding-left: 2px;
+}
 
 .package-cart p {
     font-size: 14px;
